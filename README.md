@@ -26,4 +26,4 @@ DNS.3 = company.net
 # 3- Generate cert.crt. 
 `openssl req -new -x509 -key cert.key -sha256 -config req.conf -out cert.crt -days 730`
 
-#4 Load cert.crt into keychain and always trust (OSX only)
+# 4- Load cert.crt into keychain and always trust (OSX only)
